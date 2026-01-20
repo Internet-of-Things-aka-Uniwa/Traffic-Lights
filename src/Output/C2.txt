@@ -1,7 +1,7 @@
 ************ ESP-01 Setup ************
-Εντολή AT ==> AT+RST
-Εντολή AT ==> AT+CWMODE=1
-Εντολή AT ==> AT+CWJAP="linksys_1",""
+Command AT ==> AT+RST
+Command AT ==> AT+CWMODE=1
+Command AT ==> AT+CWJAP="linksys_1",""
 ...
 Connected!
 ***************************************
@@ -19,16 +19,16 @@ Value to be sent:
 ***************************************
 
 ************ Task B ************
-Εντολή AT ==> AT+CIPMUX=1
-Εντολή AT ==> AT+CIPSTART=0,"TCP","api.thingspeak.com",80
-Εντολή AT ==> AT+CIPSEND=0,40
+Command AT ==> AT+CIPMUX=1
+Command AT ==> AT+CIPSTART=0,"TCP","api.thingspeak.com",80
+Command AT ==> AT+CIPSEND=0,40
 ALERT Field set to 0.
 ***************************************
 
 ************ Task C.1 ************
-Εντολή AT ==> AT+CIPMUX=1
-Εντολή AT ==> AT+CIPSTART=0,"TCP","api.thingspeak.com",80
-Εντολή AT ==> AT+CIPSEND=0,76
+Command AT ==> AT+CIPMUX=1
+Command AT ==> AT+CIPSTART=0,"TCP","api.thingspeak.com",80
+Command AT ==> AT+CIPSEND=0,76
 Starting to read...
 Value of ALERT field:1
 ALERT: Traffic Light out of order, setting the ORANGE signal.
