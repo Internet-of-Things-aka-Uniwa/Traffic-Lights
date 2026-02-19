@@ -119,7 +119,7 @@ This project focuses on the development of an **automated traffic light system**
 |     3.6 | `src/Output/B.txt`                         | Execution output for scenario B                    |
 |     3.7 | `src/Output/C1.txt`                        | Execution output for scenario C1                   |
 |     3.8 | `src/Output/C2.txt`                        | Execution output for scenario C2                   |
-|       4 | `README.md`                                | Repository overview and usage instructions         |
+|       4 | `README.md`                                | Repository overview                                |
 |       5 | `INSTALL.md`                               | Usage instructions                                 |
 
 ---
